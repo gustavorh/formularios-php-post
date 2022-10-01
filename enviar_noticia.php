@@ -5,7 +5,6 @@ $cuerpo = ucfirst($_POST['cuerpoNoticia']);
 $categoria = $_POST['categoriaNoticia'];
 
 $fecha = date('d-m-Y');
-$hora = date('H:i:s');
 
 $nombreCarpeta = $categoria; // El nombre de la carpeta tendra el siguiente formato: Categoria.
 $nombreArchivo = str_replace(" ", "-", $titulo); // El nombre de archivo tendra el siguiente formato: Titulo_de_la_noticia.
@@ -27,7 +26,6 @@ if (file_exists("$nombreCarpeta") == true) {
     $archivo = fopen($ruta, "w+") or die ("El archivo no se puede leer.");
     fputs($archivo, $insertar);
     fclose($archivo);
-    #Test
 }
 
 ?>

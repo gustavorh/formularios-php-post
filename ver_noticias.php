@@ -14,17 +14,12 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-        <?php
-            $archivo = fopen("archivo.txt", "r");
-
-            $contenido = explode("\n", file_get_contents('$archivo'));
-        ?>
 		<div class="container-fluid">
 			<div class="row navbar">
 				<!-- Navbar -->
 				<nav class="navbar navbar-expand-lg navbar-component">
 					<div class="container-fluid">
-						<a class="navbar-brand link-light" href="#"
+						<a class="navbar-brand link-light" href="index.html"
 							>ChileNoticias!</a
 						>
 						<button
