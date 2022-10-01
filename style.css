@@ -1,0 +1,24 @@
+body {
+	background-color: #00324f;
+}
+
+a {
+	color: antiquewhite;
+}
+
+a:hover {
+	color: #ccc;
+}
+
+.navbar {
+	background-color: #004f64;
+}
+
+.card {
+	background-color: #007a8e;
+}
+
+.card-title,
+label {
+	color: antiquewhite;
+}
