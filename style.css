@@ -22,3 +22,7 @@ a:hover {
 label, .card-text {
 	color: antiquewhite;
 }
+
+.footer {
+	background-color: #004f64;
+}
