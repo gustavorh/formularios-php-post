@@ -19,6 +19,6 @@ a:hover {
 }
 
 .card-title,
-label {
+label, .card-text {
 	color: antiquewhite;
 }
